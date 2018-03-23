@@ -1,0 +1,305 @@
+html {
+  font-size: 20vw;
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 108px;
+  }
+}
+body {
+  max-width: 540px;
+  min-width: 320px;
+}
+.content .userLogin {
+  position: relative;
+  left: 0;
+  top: 0;
+  padding-top: 26.66666667vw;
+  box-sizing: border-box;
+  height: 100%;
+}
+.loginMain {
+  margin: 0 auto;
+  width: 90%;
+}
+.loginHeader {
+  width: 26.66666667vw;
+  height: 26.66666667vw;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 4vw;
+  background: url(../img/logo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.loginbody {
+  position: relative;
+  padding: 4vw;
+}
+.layui-input,
+.layui-select,
+.layui-textarea {
+  height: 10.13333333vw;
+  line-height: 1.3;
+  border-width: 0.5px;
+  border-style: solid;
+  background-color: #fff;
+  border-radius: 1px;
+  border-color: #e6e6e6;
+}
+[data-dpr="1.3"] .layui-input,
+[data-dpr="1.3"] .layui-select,
+[data-dpr="1.3"] .layui-textarea {
+  border-width: 0.65px;
+}
+[data-dpr="1.4"] .layui-input,
+[data-dpr="1.4"] .layui-select,
+[data-dpr="1.4"] .layui-textarea {
+  border-width: 0.7px;
+}
+[data-dpr="1.5"] .layui-input,
+[data-dpr="1.5"] .layui-select,
+[data-dpr="1.5"] .layui-textarea {
+  border-width: 0.75px;
+}
+[data-dpr="2"] .layui-input,
+[data-dpr="2"] .layui-select,
+[data-dpr="2"] .layui-textarea {
+  border-width: 1px;
+}
+[data-dpr="2.5"] .layui-input,
+[data-dpr="2.5"] .layui-select,
+[data-dpr="2.5"] .layui-textarea {
+  border-width: 1.25px;
+}
+[data-dpr="2.75"] .layui-input,
+[data-dpr="2.75"] .layui-select,
+[data-dpr="2.75"] .layui-textarea {
+  border-width: 1.375px;
+}
+[data-dpr="3"] .layui-input,
+[data-dpr="3"] .layui-select,
+[data-dpr="3"] .layui-textarea {
+  border-width: 1.5px;
+}
+[data-dpr="4"] .layui-input,
+[data-dpr="4"] .layui-select,
+[data-dpr="4"] .layui-textarea {
+  border-width: 2px;
+}
+[data-dpr="1.3"] .layui-input,
+[data-dpr="1.3"] .layui-select,
+[data-dpr="1.3"] .layui-textarea {
+  border-radius: 1.3px;
+}
+[data-dpr="1.4"] .layui-input,
+[data-dpr="1.4"] .layui-select,
+[data-dpr="1.4"] .layui-textarea {
+  border-radius: 1.4px;
+}
+[data-dpr="1.5"] .layui-input,
+[data-dpr="1.5"] .layui-select,
+[data-dpr="1.5"] .layui-textarea {
+  border-radius: 1.5px;
+}
+[data-dpr="2"] .layui-input,
+[data-dpr="2"] .layui-select,
+[data-dpr="2"] .layui-textarea {
+  border-radius: 2px;
+}
+[data-dpr="2.5"] .layui-input,
+[data-dpr="2.5"] .layui-select,
+[data-dpr="2.5"] .layui-textarea {
+  border-radius: 2.5px;
+}
+[data-dpr="2.75"] .layui-input,
+[data-dpr="2.75"] .layui-select,
+[data-dpr="2.75"] .layui-textarea {
+  border-radius: 2.75px;
+}
+[data-dpr="3"] .layui-input,
+[data-dpr="3"] .layui-select,
+[data-dpr="3"] .layui-textarea {
+  border-radius: 3px;
+}
+[data-dpr="4"] .layui-input,
+[data-dpr="4"] .layui-select,
+[data-dpr="4"] .layui-textarea {
+  border-radius: 4px;
+}
+.formItem i.iconInput {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 9.86666667vw;
+  line-height: 9.86666667vw;
+  font-size: 16px;
+  text-align: center;
+  color: #d2d2d2;
+}
+[data-dpr="1.3"] .formItem i.iconInput {
+  font-size: 20.8px;
+}
+[data-dpr="1.4"] .formItem i.iconInput {
+  font-size: 22.4px;
+}
+[data-dpr="1.5"] .formItem i.iconInput {
+  font-size: 24px;
+}
+[data-dpr="2"] .formItem i.iconInput {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .formItem i.iconInput {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .formItem i.iconInput {
+  font-size: 44px;
+}
+[data-dpr="3"] .formItem i.iconInput {
+  font-size: 48px;
+}
+[data-dpr="4"] .formItem i.iconInput {
+  font-size: 64px;
+}
+.formItem .loginInput {
+  padding-left: 9.86666667vw;
+  width: 100%;
+  display: block;
+}
+.loginbody .formItem {
+  position: relative;
+  clear: both;
+  margin-bottom: 6.4vw;
+  font-size: 16px;
+}
+[data-dpr="1.3"] .loginbody .formItem {
+  font-size: 20.8px;
+}
+[data-dpr="1.4"] .loginbody .formItem {
+  font-size: 22.4px;
+}
+[data-dpr="1.5"] .loginbody .formItem {
+  font-size: 24px;
+}
+[data-dpr="2"] .loginbody .formItem {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .loginbody .formItem {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .loginbody .formItem {
+  font-size: 44px;
+}
+[data-dpr="3"] .loginbody .formItem {
+  font-size: 48px;
+}
+[data-dpr="4"] .loginbody .formItem {
+  font-size: 64px;
+}
+.layui-form-checkbox span {
+  padding-left: .15rem;
+  color: #666;
+}
+#myCheck + label {
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #d3d3d3;
+  width: 4.93333333vw;
+  height: 4.93333333vw;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 4.93333333vw;
+  float: left;
+}
+#myCheck:checked + label {
+  background-color: #5FB878;
+  border-color: #5FB878;
+}
+#myCheck:checked + label:after {
+  content: "\2714";
+  color: #fff;
+}
+.layui-form-checkbox:hover label {
+  border-color: #5FB878;
+  color: #fff;
+}
+.formItem .loginBtn {
+  display: inline-block;
+  width: 9.86666667vw;
+  height: 9.86666667vw;
+  padding: 0 0.48rem;
+  background-color: #009688;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  width: 100%;
+}
+[data-dpr="1.3"] .formItem .loginBtn {
+  font-size: 20.8px;
+}
+[data-dpr="1.4"] .formItem .loginBtn {
+  font-size: 22.4px;
+}
+[data-dpr="1.5"] .formItem .loginBtn {
+  font-size: 24px;
+}
+[data-dpr="2"] .formItem .loginBtn {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .formItem .loginBtn {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .formItem .loginBtn {
+  font-size: 44px;
+}
+[data-dpr="3"] .formItem .loginBtn {
+  font-size: 48px;
+}
+[data-dpr="4"] .formItem .loginBtn {
+  font-size: 64px;
+}
+[data-dpr="1.3"] .formItem .loginBtn {
+  border-radius: 1.3px;
+}
+[data-dpr="1.4"] .formItem .loginBtn {
+  border-radius: 1.4px;
+}
+[data-dpr="1.5"] .formItem .loginBtn {
+  border-radius: 1.5px;
+}
+[data-dpr="2"] .formItem .loginBtn {
+  border-radius: 2px;
+}
+[data-dpr="2.5"] .formItem .loginBtn {
+  border-radius: 2.5px;
+}
+[data-dpr="2.75"] .formItem .loginBtn {
+  border-radius: 2.75px;
+}
+[data-dpr="3"] .formItem .loginBtn {
+  border-radius: 3px;
+}
+[data-dpr="4"] .formItem .loginBtn {
+  border-radius: 4px;
+}
+.loginFooter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  line-height: .8rem;
+  padding: .6rem;
+  text-align: center;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.5);
+}

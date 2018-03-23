@@ -1,0 +1,121 @@
+@import 'config.less';
+
+.content .userLogin{
+    position: relative;
+    left: 0;
+    top:0;
+    .px2vw(padding-top, 200);
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.loginMain {
+    margin: 0 auto;
+    width:90%;
+}
+
+.loginHeader {
+    .px2vw(width,200);
+    .px2vw(height,200);
+    margin: 0 auto;
+    border-radius: 50%;
+    .px2vw( margin-bottom,30);
+    background: url(../img/logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.loginbody {
+    position: relative;
+    .px2vw(padding,30);
+}
+.layui-input, .layui-select, .layui-textarea {
+    .px2vw( height,76);
+    line-height: 1.3;
+    .px2px1(border-width,1px);
+    border-style: solid;
+    background-color: #fff;
+    .px2px1(border-radius,2px);
+    border-color: #e6e6e6;
+}
+.formItem i.iconInput {
+    position: absolute;
+    left: 0;
+    top: 0;
+    .px2vw( width,74);
+    .px2vw(line-height,74);
+    .px2px1(font-size, 32);
+    text-align: center;
+    color: #d2d2d2;
+}
+.formItem .loginInput {
+    .px2vw(padding-left,74);
+    width: 100%;
+    display: block;
+}
+
+.loginbody .formItem {
+    position: relative;
+    clear: both;
+    .px2vw( margin-bottom,48);
+    .px2px1(font-size, 32);
+}
+.layui-form-checkbox span{
+    padding-left: .15rem;
+    color: #666;
+}
+#myCheck+label {
+	background-color: #fff;
+	border-radius: 2px;
+    border: 1px solid #d3d3d3;
+    .px2vw(width,37);
+    .px2vw(height,37);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    .px2vw(line-height,37);
+    float:left
+}
+
+#myCheck:checked+label {
+	background-color: #5FB878;
+	border-color: #5FB878;
+}
+
+#myCheck:checked+label:after {
+	content: "\2714";
+	color: #fff;
+}
+
+.layui-form-checkbox:hover label {
+	border-color: #5FB878;
+	color: #fff;
+}
+
+.formItem .loginBtn {
+    display: inline-block;
+    .px2vw(width,74);
+    .px2vw(height,74);
+    padding: 0 0.48rem;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    .px2px1(font-size, 32);
+    border: none;
+    .px2px1(border-radius, 2);
+    cursor: pointer;
+    width: 100%;
+}
+
+.loginFooter {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: .8rem;
+    padding: .6rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .5);
+}

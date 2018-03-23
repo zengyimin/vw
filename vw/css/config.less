@@ -1,0 +1,56 @@
+@vw_fontsize: 75;
+@vw_base:375;
+@vw_design:750;
+.px2vw(@name, @px){
+    @{name}: @px / 375 * 50vw;
+}
+.px2rem(@name, @px){
+    @{name}: @px / 75 * 1rem;
+}
+html{
+	font-size:@vw_fontsize / @vw_design * 200vw;
+	@media screen and (max-width: 320px){
+		font-size:64px;
+	}
+	@media screen and (min-width: 540px){
+		font-size:108px;
+	}
+}
+//body设置最大最小宽度限制
+body{
+	max-width:540px;
+	min-width:320px;
+}
+
+// 3、针对device-independent参数，比如font-size
+// scale缩放和乘以dpr相互抵消，我们看到的大小还是一样的
+.px2px1(@name, @px){
+    @{name}: (@px / 2) * 1px;
+[data-dpr="1.3"] & {
+    @{name}: (@px * 1.3 / 2) * 1px; 
+}
+[data-dpr="1.4"] & {
+    @{name}: (@px * 1.4 / 2) * 1px;
+}
+[data-dpr="1.5"] & {
+    @{name}: (@px * 1.5 / 2) * 1px;
+}
+[data-dpr="2"] & {
+    @{name}: @px * 1px;
+}
+// for mx3
+[data-dpr="2.5"] & {
+    @{name}: (@px * 2.5 / 2) * 1px;
+}
+// for 小米note
+[data-dpr="2.75"] & {
+    @{name}: (@px * 2.75 / 2) * 1px;
+}
+[data-dpr="3"] & {
+    @{name}: (@px * 3 / 2) * 1px;
+}
+// for 三星note4
+[data-dpr="4"] & {
+    @{name}: @px * 2px;
+}
+}
